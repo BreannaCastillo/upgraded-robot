@@ -1,0 +1,61 @@
+body {
+    background-color: #5c4091; /* Light grey background */
+    color: #6bb492; /* Dark grey text */
+    font-family: Arial, sans-serif; /* Modern, sans-serif font */
+    }
+h1 {
+    color: #608abb; /* Bright blue */
+    text-align: center; /* Center-align text */
+   }
+p, li {
+    padding: 8px;
+    line-height: 1.6; /* Makes text easier to read */
+   }
+   
+   table {
+    width: 100%;
+    border-collapse: collapse;
+   }
+   th, td {
+    border: 1px solid #b45454;
+    padding: 8px;
+    text-align: left;
+   }
+   th {
+    background-color: #146083;
+   }
+   form {
+    margin-top: 20px;
+   }
+   input, button {
+    padding: 10px;
+    margin: 5px;
+   }
+   button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   button:hover {
+    background-color: #0056b3;
+   }
+   
+   form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+   }
+   label, input {
+    flex: 1; /* Allow input and label to fill the space */
+   }
+   a, button {
+    padding: 15px;
+    font-size: 16px; /* Larger font size for better readability */
+   }
+   a, button {
+    padding: 15px;
+    font-size: 16px; /* Larger font size for better readability */
+   }
+   <head>
+   <script src="script.js"></script>
